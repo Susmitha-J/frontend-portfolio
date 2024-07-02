@@ -15,6 +15,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { SkillsComponent } from './skills/skills.component';
 import { FooterComponent } from './footer/footer.component';
 import { SplitPipe } from './split.pipe';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { SplitPipe } from './split.pipe';
     ProjectsComponent,
     SkillsComponent,
     FooterComponent,
-    SplitPipe
+    SplitPipe,
+    EducationComponent
   ],
   imports: [
     BrowserModule,

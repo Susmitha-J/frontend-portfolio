@@ -10,7 +10,6 @@ export class ExperienceComponent {
   workexp : any;
 
   ngOnInit() {
-
    this.workexp = [
       {
         company: 'Development Bank Of Singapore',
