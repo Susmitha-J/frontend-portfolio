@@ -1,0 +1,26 @@
+/* Ensure the page-content takes up the full width of the viewport */
+.page-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Takes the full width of the viewport */
+    background-color: #f8f9fa; /* Background color for the content area */
+  }
+  
+  /* Contact Section Full Width */
+  .contact-fullwidth {
+    width: 100%; /* Ensures the contact section spans the entire width */
+    background-color: #ffffff; /* You can adjust this as needed */
+    padding: 30px 0; /* Add padding if required for spacing */
+  }
+  
+  .contact-fullwidth app-contact {
+    max-width: 100%; /* Ensure the <app-contact> component takes full width */
+    margin: 0 auto; /* Centers the content inside */
+  }
+  
+  @media (max-width: 768px) {
+    .contact-fullwidth {
+      padding: 20px 0; /* Adjust padding for smaller screens */
+    }
+  }
+  
